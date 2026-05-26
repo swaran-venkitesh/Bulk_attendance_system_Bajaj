@@ -1,0 +1,42 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+.venv/
+node_modules/
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Private / generated attendance data
+database/
+data/
+datasets/
+attendance_logs/
+captures/
+exports/
+
+# Logs / runtime outputs
+logs/
+outputs/
+runs/
+*.log
+
+# Model weights and binaries
+models/*.pt
+models/*.pth
+models/*.ckpt
+*.onnx
+*.h5
+*.safetensors
+*.bin
+
+# Archives / media
+*.zip
+*.rar
+*.7z
+*.mp4
+*.avi
+*.mov
